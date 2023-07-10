@@ -142,6 +142,8 @@ input:focus{
     --black-color: #000000;
     --gray-color: #888;
 
+    --page-head-height: 50px;
+    --navbar-height: 50px;
 }
 .btn-primary:active,
 .btn-secondary:focus,
@@ -168,11 +170,11 @@ input:focus{
 } */
 .page-head,
 .page-head .page-head-content{
-    height: 50px;
+    height: var(--page-head-height);
 }
 .page-head,
 .page-head .page-head-content{
-    top: 50px;
+    top: var(--page-head-height);
 }
 
 
@@ -180,7 +182,7 @@ input:focus{
 /* Top Header */
 .navbar{
     background: var(--background-color) !important;
-    height: 50px;
+    height: var(--navbar-height);
 }
 .navbar-expand{
     background-color: var(--background-color);
