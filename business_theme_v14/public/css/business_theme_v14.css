@@ -23,7 +23,7 @@
     background-color: var(--bg-color)
 }
 .modal-backdrop{
-    background-color: #2c436b !important;
+    background-color: #00529B !important;
 }
 .widget .widget-head .widget-title {
     font-size: var(--text-base);
@@ -45,27 +45,27 @@
 [data-theme="dark"] {
     --bg-color: var(--gray-900);
     --disabled-control-bg: var(--gray-900);
-    --border-color: #1c2126;
+    --border-color: #2C436B;
     --margin-lg : 15px;
     --text-bold: 600;
-    --scroll-bg: #161a1f;
-    --scroll-color: #1c2126;
+    --scroll-bg: #004A93;
+    --scroll-color: #2C436B;
 }
 
 [data-theme="light"] {
-    --bg-color: #f2f5fa;
+    --bg-color: #EFF6FF;
     --text-bold: 600;
     --control-bg : #fff;
     --control-bg-on-gray: #d4dcea;
-    --disabled-control-bg: #f2f5fa;
-    --heading-color: #333;
-    --border-color:#e3e8f1;
-    --avatar-frame-bg: #dde2ea;
+    --disabled-control-bg: #EFF6FF;
+    --heading-color: #00529B;
+    --border-color:#EFF6FF;
+    --avatar-frame-bg: #EFF6FF;
     --margin-lg: 15px;
     --sidebar-select-color: #d4dcea;
     --awesomplete-hover-bg: #d4dcea;
-    --scroll-bg: #eef1f5;
-    --scroll-color: #d9dfe6;
+    --scroll-bg: #D2E5FF;
+    --scroll-color: #CBD9EA;
 }
 
 
@@ -138,7 +138,7 @@ input:focus{
     --background-color: #36414c;
     --primary-color: #ffa00a;
     --secondary-color: #7574ff;
-    --white-color: #ffffff;
+    --white-color: #F8FBFF;
     --black-color: #000000;
     --gray-color: #888;
 
