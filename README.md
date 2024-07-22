@@ -2,7 +2,10 @@
 
 Business Theme for ERPNext / Frappe
 
-### To install this theme,
+### FrappeCloud Link
+https://frappecloud.com/marketplace/apps/business_theme_v14
+
+### To install this theme on dedicated servers
 
 bench get-app https://github.com/Midocean-Technologies/business_theme_v14.git
 
