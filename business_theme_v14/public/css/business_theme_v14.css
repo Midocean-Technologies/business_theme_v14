@@ -1,4 +1,4 @@
-/* Works on Chrome, Edge, and Safari */
+* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
     width: 6px;
 }
@@ -135,8 +135,8 @@ input:focus{
 
 /* Colours */
 :root {
-    --background-color: #da4545;
-    --primary-color: #da613f;
+    --background-color: #45dabf;
+    --primary-color: #eb553b;
     --secondary-color: #34aeb2;
     --white-color: #ffffff;
     --black-color: #000000;
@@ -157,7 +157,7 @@ input:focus{
     border-radius: 0 !important;
 }
 .btn-primary:hover{
-    background-color: rgba(227, 78, 33, 0.93) !important;
+    background-color: rgba(56, 225, 231, 0.93) !important;
 }
 /* .btn-secondary{
     background-color: #606060 !important;
@@ -334,4 +334,3 @@ symbol#icon-small-down{
 .filter-button span.filter-icon svg.icon{
     stroke: var(--white-color);
 } */
-
