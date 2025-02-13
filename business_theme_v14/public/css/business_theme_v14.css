@@ -45,11 +45,11 @@
 [data-theme="dark"] {
     --bg-color: var(--gray-900);
     --disabled-control-bg: var(--gray-900);
-    --border-color: #396973;
+    --border-color: #384243;
     --margin-lg : 15px;
     --text-bold: 600;
-    --scroll-bg: #4c9d9c;
-    --scroll-color: #538895;
+    --scroll-bg: #313e3e;
+    --scroll-color: #253032;
 }
 
 [data-theme="light"] {
@@ -58,7 +58,7 @@
     --control-bg : #fff;
     --control-bg-on-gray: #d4dcea;
     --disabled-control-bg: #f2f5fa;
-    --heading-color: #45999;
+    --heading-color: #b34e37;
     --border-color:#e3e8f1;
     --avatar-frame-bg: #dde2ea;
     --margin-lg: 15px;
@@ -135,12 +135,12 @@ input:focus{
 
 /* Colours */
 :root {
-    --background-color: #458f9c;
+    --background-color: #429898;
     --primary-color: #da613f;
-    --secondary-color: #74ffa9;
+    --secondary-color: #34aeb2;
     --white-color: #ffffff;
     --black-color: #000000;
-    --gray-color: #969494;
+    --gray-color: #445b5d;
 
     --page-head-height: 50px;
     --navbar-height: 50px;
@@ -157,7 +157,7 @@ input:focus{
     border-radius: 0 !important;
 }
 .btn-primary:hover{
-    background-color: rgba(255, 120, 10, 0.93) !important;
+    background-color: rgba(227, 78, 33, 0.93) !important;
 }
 /* .btn-secondary{
     background-color: #606060 !important;
@@ -264,7 +264,7 @@ input{
     outline: 0;
     border: 1px solid var(--primary-color);
     box-shadow: none;
-    background: rgba(255, 160, 10, 0.14) !important;
+    background: rgba(206, 58, 53, 0.14) !important;
 }
 .navbar .navbar-nav a.nav-link{
     color: var(--white-color);
@@ -278,7 +278,7 @@ symbol#icon-small-down{
 /* Table */
 .form-grid{
     border-radius: 0;
-    border: 1px solid #bbbbbb;
+    border: 1px solid #e79b9b;
 }
 .form-grid .grid-heading-row{
     background-color: #f4f4f4;
@@ -290,7 +290,7 @@ symbol#icon-small-down{
     border-right: 1px solid #d1d8dd;
 }
 .form-grid .grid-row:hover{
-    background: rgba(255, 98, 0, 0.15);
+    background: rgba(221, 154, 113, 0.15);
 }
 
 /* Heading Color */
@@ -334,3 +334,4 @@ symbol#icon-small-down{
 .filter-button span.filter-icon svg.icon{
     stroke: var(--white-color);
 } */
+
