@@ -23,7 +23,7 @@
     background-color: var(--bg-color)
 }
 .modal-backdrop{
-    background-color: #fb8a86 !important;
+    background-color: #58e4d2 !important;
 }
 .widget .widget-head .widget-title {
     font-size: var(--text-base);
