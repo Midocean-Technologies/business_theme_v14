@@ -23,7 +23,7 @@
     background-color: var(--bg-color)
 }
 .modal-backdrop{
-    background-color: #2c436b !important;
+    background-color: #fb8a86 !important;
 }
 .widget .widget-head .widget-title {
     font-size: var(--text-base);
@@ -45,11 +45,11 @@
 [data-theme="dark"] {
     --bg-color: var(--gray-900);
     --disabled-control-bg: var(--gray-900);
-    --border-color: #1c2126;
+    --border-color: #396973;
     --margin-lg : 15px;
     --text-bold: 600;
-    --scroll-bg: #161a1f;
-    --scroll-color: #1c2126;
+    --scroll-bg: #4c9d9c;
+    --scroll-color: #538895;
 }
 
 [data-theme="light"] {
@@ -135,12 +135,12 @@ input:focus{
 
 /* Colours */
 :root {
-    --background-color: #36414c;
-    --primary-color: #ffa00a;
-    --secondary-color: #7574ff;
+    --background-color: #458f9c;
+    --primary-color: #da613f;
+    --secondary-color: #74ffa9;
     --white-color: #ffffff;
     --black-color: #000000;
-    --gray-color: #888;
+    --gray-color: #969494;
 
     --page-head-height: 50px;
     --navbar-height: 50px;
@@ -290,7 +290,7 @@ symbol#icon-small-down{
     border-right: 1px solid #d1d8dd;
 }
 .form-grid .grid-row:hover{
-    background: rgba(255, 152, 0, 0.15);
+    background: rgba(255, 98, 0, 0.15);
 }
 
 /* Heading Color */
@@ -334,4 +334,3 @@ symbol#icon-small-down{
 .filter-button span.filter-icon svg.icon{
     stroke: var(--white-color);
 } */
-
