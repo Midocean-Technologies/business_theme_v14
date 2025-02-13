@@ -1,4 +1,4 @@
-* Works on Chrome, Edge, and Safari */
+/* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
     width: 6px;
 }
@@ -58,7 +58,7 @@
     --control-bg : #fff;
     --control-bg-on-gray: #d4dcea;
     --disabled-control-bg: #f2f5fa;
-    --heading-color: #b34e37;
+    --heading-color: #37b38e;
     --border-color:#e3e8f1;
     --avatar-frame-bg: #dde2ea;
     --margin-lg: 15px;
@@ -136,7 +136,7 @@ input:focus{
 /* Colours */
 :root {
     --background-color: #45dabf;
-    --primary-color: #eb553b;
+    --primary-color: #1dae9d;
     --secondary-color: #34aeb2;
     --white-color: #ffffff;
     --black-color: #000000;
