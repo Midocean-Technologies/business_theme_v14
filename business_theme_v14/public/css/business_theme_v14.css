@@ -66,6 +66,14 @@
     --awesomplete-hover-bg: #d4dcea;
     --scroll-bg: #eef1f5;
     --scroll-color: #d9dfe6;
+    .es-icon {
+    fill: #fdfbff!important;
+    stroke: var(--icon-fill);
+}
+.layout-side-section{
+    background-color: transparent;
+    background-image: linear-gradient(360deg, #FFFFFF 39%, #ADCFF3 100%);
+}
 }
 
 
@@ -135,9 +143,9 @@ input:focus{
 
 /* Colours */
 :root {
-    --background-color: #36414c;
-    --primary-color: #ffa00a;
-    --secondary-color: #7574ff;
+    --background-color: #0a64bc;
+    --primary-color: #0a64bc;
+    --secondary-color: #a7a7e6;
     --white-color: #ffffff;
     --black-color: #000000;
     --gray-color: #888;
@@ -182,6 +190,8 @@ input:focus{
 /* Top Header */
 .navbar{
     background: var(--background-color) !important;
+    /* background-color: transparent;
+    background-image: linear-gradient(360deg, #FFFFFF 39%, #ADCFF3 100%); */
     height: var(--navbar-height);
 }
 .navbar-expand{
